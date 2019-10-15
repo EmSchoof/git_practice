@@ -28,6 +28,10 @@ class DogFactory:
     def get_food(pet='dog'):
         """ Factory Method """
         return "Dog food"
+    
+    def get_toy(pet='dog'):
+        """ Factory Method """
+        return "Tennis ball"
 
 class PetStore:
     """ Pet factory houses an animal Factory: Parent 1 """
