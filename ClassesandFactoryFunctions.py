@@ -34,7 +34,7 @@ class DogFactory:
         return "Tennis ball"
 
     def get_cats(pet='dog'):
-        return 'hello'
+        return 'hello1'
 
 class PetStore:
     """ Pet factory houses an animal Factory: Parent 1 """
